@@ -37,9 +37,9 @@ MQTT_HOST = os.getenv("LED_MQTT_HOST", "sgp1.blynk.cloud")
 MQTT_PORT = int(os.getenv("LED_MQTT_PORT", "1883"))
 
 # Paste your working Blynk credentials here
-MQTT_CLIENT_ID = "TMPL6VEugAJ7i"  # e.g., "TMPLxxxxxx"
+MQTT_CLIENT_ID = ""  # <-- PUT CLIENT ID
 MQTT_USERNAME = "device"
-MQTT_PASSWORD = "JnYZaQCQqyGG558-Ya9X55pmphTc6GHS"  # <-- PASTE YOUR WORKING AUTH TOKEN HERE
+MQTT_PASSWORD = ""  # <-- PASTE YOUR WORKING AUTH TOKEN HERE
 
 # Datastream Pin mappings
 PIN_ANIMATION = "V0"
