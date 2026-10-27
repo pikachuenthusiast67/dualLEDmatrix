@@ -14,7 +14,7 @@ except ImportError:
     mqtt = None
 
 # Must match the IP address shown by UDP.py after DHCP/static setup.
-BOARD_IP = os.getenv("LED_BOARD_IP", "10.0.1.214")
+BOARD_IP = os.getenv("LED_BOARD_IP", "") # <-- PUT THE IP THAT IS DISPLAYED ON THE OLED OR THONNY SHELL
 STREAM_PORT = 6454
 
 WIDTH = 64
